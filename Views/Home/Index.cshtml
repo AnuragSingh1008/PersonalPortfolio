@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <div class="container d-flex align-items-center justify-content-between my-5">
+        <div class="hero-text">
+            <h1>Hello, I’m <span class="text-dark">Anurag Singh</span></h1>
+            <p class="lead tagline">"A developer by craft, hacker by curiosity"</p>
+        <button type="button" onclick="location.href='@Url.Action("AboutMe", "Home")'">About Me!</button>
+        </div>
+
+        <div class="hero-image position-relative text-center">
+            <img src="~/Images/AnuragSingh.png" asp-append-version="true" alt="Anurag" class="img-fluid floating-img">
+
+        <div class="floating-icons">
+            <i class="fab fa-java skill-icon" title="Java"></i>
+            <i class="fas fa-database skill-icon" title="SQL"></i>
+            <i class="fas fa-code skill-icon" title="ASP.NET MVC"></i>
+            <i class="devicon-visualstudio-plain colored skill-icon" title="Visual Studio"></i>
+            <i class="devicon-vscode-plain colored skill-icon" title="VS Code"></i>
+            <i class="devicon-linux-plain colored skill-icon" title="Linux"></i>
+        </div>
+        </div>
+    </div>
+    <div class="container mt-5 skill-container">
+    <h3 class="mb-4 text-black skill-heading">Skillset</h3>
+        <div class="row">
+            <div class="col-md-6 parent">
+                <h5 class="Heading">Languages</h5>
+                <ul>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>C#</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="col-md-6 parent">
+                <h5 class="Heading">Core Skills</h5>
+                <ul>
+                    <li>MySQL</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Entity Framework</li>
+                    <li>Identity Framework</li>
+                    <li>OOP</li>
+                    <li>Networking</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6 parent">
+                <h5 class="Heading">Tools</h5>
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>VS Code</li>
+                    <li>SQL Server (SSMS)</li>
+                    <li>Linux</li>
+                    <li>BurpSuite</li>
+                    <li>Metasploit</li>
+                </ul>
+            </div>
+            <div class="col-md-6 parent">
+                <h5 class="Heading">Soft Skills</h5>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Adaptability</li>
+                    <li> Willingness to Learn</li>
+                    <li>Time Management</li>
+                    <li>Communication</li>
+                    <li>Problem-Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Curiosity</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="social-links">
+    <a href="https://www.linkedin.com/in/anuragsingh1008/" target="_blank" class="social-icon linkedin">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    <a href="https://github.com/AnuragSingh1008" target="_blank" class="social-icon github">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+

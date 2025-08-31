@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "AboutMe";
+}
+
+<div class="container my-5 about-me-section">
+    <h2 class="about-heading mb-4">About Me</h2>
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img src="~/Images/AnuragSingh.png" alt="Anurag Singh" class="img-fluid profile-img">
+        </div>
+        <div class="col-md-8">
+            <p class="about-text">
+                I have completed my <strong>B.Tech in Computer Science and Engineering</strong> from Shivalik College of Engineering.
+                I work with technologies such as <strong>SQL, Java, OOPs, Networking, and ASP.NET MVC</strong>.
+            </p>
+            <p class="about-text">
+                I also done an <strong>internship with the Gurugram Cyber Police (GPCSSI2024)</strong>, contributing to a <strong>Dark Web Crawler project</strong> and attending workshops conducted by industry experts.
+                With a strong passion for <strong>cybersecurity</strong>, I achieved a <strong>global top 1% rank on TryHackMe</strong> and also earned a <strong>4-star rating in SQL on HackerRank</strong>.
+            </p>
+            <p class="about-text">
+                I have developed several projects including a <strong>Student Management System</strong> and a <strong>role-based Employee Management System</strong> using ASP.NET MVC, C#, and SQL Server, implementing <strong>authentication, authorization, dashboards, and attendance tracking modules</strong>.
+            </p>
+            <p class="about-text">
+                I also maintain this <strong>portfolio</strong> to <strong>showcase my projects, technical skills, and continuous learning through mini-projects</strong>.
+            </p>
+
+            <div class="about-skills mt-4">
+                <i class="fab fa-java skill-icon" title="Java"></i>
+                <i class="fas fa-database skill-icon" title="SQL"></i>
+                <i class="fas fa-code skill-icon" title="ASP.NET MVC"></i>
+                <i class="devicon-visualstudio-plain colored skill-icon" title="Visual Studio"></i>
+                <i class="devicon-vscode-plain colored skill-icon" title="VS Code"></i>
+                <i class="devicon-linux-plain colored skill-icon" title="Linux"></i>
+            </div>
+            <div class="mt-3">
+                <a asp-controller="Home" asp-action="KnowMore" class="btn btn-primary">
+                    Learn More About Me
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
